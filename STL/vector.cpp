@@ -1,5 +1,5 @@
 #include <iostream>
-#include <vector>    //dynamic array
+#include <vector> //dynamic array
 #include <algorithm> //for sorting and searching
 using namespace std;
 
@@ -68,7 +68,7 @@ int main()
     auto it = find(v.begin(), v.end(), 5); // linear search, v.end() is the iterator(exclusive, one paste the end)
     if (it != v.end())
     {
-        cout << "element are found" << endl;
+        cout << "element is found" << endl;
     }
 
     // binary search
